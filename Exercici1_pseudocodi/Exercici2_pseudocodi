@@ -1,0 +1,11 @@
+INICI
+    DEFINIR dades COM ARRAY DE 6 ENTERS
+    PER (i=0 fins a i=5) fes:
+        ESCRIURE: (“Introdueix:”)
+        LLEGIR: dades[i]
+    FIPER
+    PER (i=0 fins i=lenght-1) fes:
+        ESCRIURE: (dades[5], dades[4], dades [3], dades[2], dades[1], dades[0])
+        ESCRIURE: (dades[1], dades[2], dades [3], dades[4], dades[5], dades[6])
+    FIPER
+FINAL

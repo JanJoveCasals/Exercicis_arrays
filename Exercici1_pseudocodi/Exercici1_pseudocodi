@@ -1,0 +1,11 @@
+INICI
+	DEFINIR dades COM ARRAY DE 5 ENTERS
+	PER (i=0 fins a i=4) fes:
+	ESCRIURE: (“Introdueix:”)
+	LLEGIR: dades[i]
+FIPER
+PER (i=0 fins a i=4) fes:
+ESCRIU: (“La dada ”, i, “val ”, dades[i])
+FIPER
+ESCRIURE: (“longitud: ", array-lenght, "Primer valor: ", dades[0], "Últim valor: ", dades[1])
+FINAL
